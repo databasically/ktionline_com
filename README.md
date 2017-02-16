@@ -1,2 +1,2 @@
-# ktionline_com
+# Kruger Technologies Web Mirror
 http://ktionline.com
