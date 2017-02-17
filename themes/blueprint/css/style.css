@@ -1,0 +1,240 @@
+/* put your custom CSS in here */
+
+body{
+	font-family: Arial;
+	background: #fff url(../images/header-bg3.png) repeat-x;
+}
+
+a{
+	color: #0066B3;	
+}
+
+a:visited {
+	color: #0066B3;
+}
+
+div.container{
+	margin: 0 auto;
+}
+
+ul li, ul.menu li, .item-list ul li, li.leaf {
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Verdana;
+	text-transform: capitalize;
+	color: #444;
+}
+
+#header{
+	height: 170px;
+	margin-bottom: 0px;
+}
+
+#logo-img {
+	text-align: left;
+	width: 367px;
+	height: 150px;
+	padding: 25px 0px 0px 20px;
+	float: left;
+}
+
+
+
+#nav{
+	background: #000;
+	float: right;
+	width: 230px;
+	margin-top: 134px;
+	font-size: 1.1em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+ul.links{
+	padding: 7px 0px;
+	margin: 0px 0px 0px 15px;
+}
+
+ul.links li{
+	padding: 0px 20px 0px 10px;
+}
+
+.first{
+	margin-left: 15px;
+}
+
+#nav a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav a:hover{
+	color: #ccc;
+}
+
+/* Subnav styles */
+#block-menu-secondary-links{
+	text-transform: uppercase;
+	font-size: 1.1em;
+	float: left;
+	margin: 15px 0 15px 15px;
+}
+
+#block-menu-secondary-links li {
+	padding-right: 50px;
+	margin:0px 10px;
+	display: inline-block;
+	position: relative;
+}
+
+#block-menu-secondary-links li ul { display: none; position: absolute; top: 0; margin-left: 0; margin-top: 20px; }
+#block-menu-secondary-links li:hover > ul { display: block; }
+
+#block-menu-secondary-links li ul li {
+	font-weight: normal;
+	display: block;
+}
+
+#block-menu-secondary-links a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+}
+
+#block-menu-secondary-links ul li  {
+	font-weight: bold;
+}
+
+#block-menu-secondary-links ul li ul, #block-menu-secondary-links ul li ul li {
+	background-color: #000;
+}
+
+#block-menu-secondary-links ul li ul {
+	border-top: 5px solid #fff;
+	padding: 10px 0px;
+}
+
+#block-menu-secondary-links ul li ul li a{
+	font-weight: normal;
+	color: #eee;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#block-menu-secondary-links ul li ul li a:hover{
+	text-decoration: underline;
+	background-color: #272727;
+
+}
+
+h1{
+	font-size: 1.8em;
+	color: #fff;
+	padding: 15px 0px 0px 12px;
+	letter-spacing:0.15em;
+	text-transform: lowercase;
+	font-family: Times;
+}
+
+h2{
+	font-family: Verdana;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #444;
+}
+
+h3 {
+	color: #444;
+}
+
+.col-center {
+	padding:0em 3em 0em 4em;
+	margin-top: 0em;
+	text-align: justify;
+}
+
+div.node {
+	border-bottom: none;
+}
+
+.col-right{
+	margin-top: 1em;
+}
+
+#bottom{
+	margin: 0 auto;
+	text-align: center;
+	color: #7A7A7A;
+	border-top: 1px solid #CCCCCC;
+}
+
+#bottom li{
+	list-style: none;
+	display: inline;
+}
+
+#bottom a{
+	color: #7A7A7A;
+	text-decoration: none;
+}
+
+#bottom a:hover{
+	text-decoration: underline;
+}
+
+/* Image Picker styles */
+
+#imagepicker body {
+	background: none;
+}
+
+/* Brian Custom Classes */
+.intro{
+	font-family: Verdana;
+	font-size: 1.6em;
+	font-style: italic;
+	color: #7a7a7a;
+	padding-bottom: 0.5em;
+}
+.intro-blue{
+	font-family: Verdana;
+	font-size: 1.6em;
+	font-style: italic;
+	color: #000099;
+	padding-bottom: 1em;
+}
+
+.blue {
+	color: #000099;
+}
+
+.project-list{
+	padding: 0;
+	margin: 0;
+}
+
+.edit-report {
+	font-size: 0.6em;
+}
+
+.title{
+	font-family: Verdana;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #7a7a7a;
+	padding-bottom: 0.5em;
+}
+.title-blue{
+	font-family: Verdana;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #000099;
+	padding-bottom: 0.5em;
+}
+td{
+	vertical-align: top;
+}
+
+.views-table a:visited { color: #555; }
